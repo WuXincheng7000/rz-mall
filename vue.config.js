@@ -2,15 +2,14 @@ module.exports = {
     configureWebpack: {
         resolve: {
             alias: {
-                'src':'@',
+                // 'src':'@',
                 'assets': '@/assets',
                 'components': '@/components',
                 'views': '@/views',
                 'network': '@/network',
                 'common': '@/common',
-                'store': '@/store',
-                'router': '@/router',
             }
         }
     },
 }
+

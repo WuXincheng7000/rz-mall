@@ -1,32 +1,20 @@
 <template>
-    <div class="main">
-        <headerbar></headerbar>
+    <div>
+        <h1>首页</h1>
+        <TabBar></TabBar>
 
-        <swiper></swiper>
-        
-        <div class="content">
-            <h1>home</h1>
-        </div>
-
-
-
-        
-        <navbar></navbar>
+        <router-view></router-view>
     </div>
 </template>
 
 <script>
-import navbar from 'components/common/NavBar';
-import headerbar from 'components/common/HeaderBar';
-import swiper from 'components/common/Swiper';
+import TabBar from '@/components/common/tabbar/TabBar'
 
 
 export default {
-    name: 'home',
+    name: 'Home',
     components:{
-        navbar,
-        headerbar,
-        swiper,
+        TabBar,
     },
     data() {
         return {

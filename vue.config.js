@@ -6,7 +6,10 @@ module.exports = {
                 'assets': '@/assets',
                 'components': '@/components',
                 'views': '@/views',
-                'network': '@/until/network'
+                'network': '@/network',
+                'common': '@/common',
+                'store': '@/store',
+                'router': '@/router',
             }
         }
     },
